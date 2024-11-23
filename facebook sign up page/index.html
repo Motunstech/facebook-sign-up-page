@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faceook Sign-Up Page Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Facebook signup form -->
+    <h1 class="facebook">
+        facebook
+    </h1>
+    <div class="signup-container">
+        <h2>Create a New Account</h2>
+        <p style="text-align: center;">It's quick and easy.</p>
+        <form action="">
+            <div class="first">
+                <input type="text" placeholder="First name" required />
+                <input type="text" placeholder="Surname" required />
+            </div>
+            <div>
+                <p>Date of Birth</p>
+                <select name="day" required>
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <select name="month" required>
+                    <option value="">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                </select>
+                <select name="year" required>
+                    <option value="">Year</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+
+            <p>Gender</p>
+            <div class="gender-container">
+                <label for="male" class="gender-option">Male<input type="radio" name="gender" value="male" required />
+                </label>
+                <label for="female" class="gender-option">Female<input type="radio" name="gender" value="female"
+                        required /> </label>
+                <label for="custom" class="gender-option">Custom<input type="radio" name="gender" value="custom" />
+                </label>
+            </div>
+            <div>
+
+                <input type="text" placeholder="Mobile number or email address" required /><br />
+                <input type="password" placeholder="New password" required /><br />
+            </div>
+            <p>People who use our service may have uploaded your contact information to facebook. <a href="#">Learn
+                    more.</a></p>
+            <p>
+                By clicking Sign Up, you agree to our
+                <a href="#">Terms</a>, <a href="#">Privacy Policy</a>, and
+                <a href="#">Cookies Policy</a>.
+            </p>
+            <button type="submit">Sign Up</button>
+            <p style="text-align: center; font-weight: bold; margin-top: 15px;">
+                <a href="#">Already have an account?</a>
+            </p>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>

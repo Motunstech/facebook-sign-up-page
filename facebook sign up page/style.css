@@ -1,0 +1,224 @@
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+      }
+      
+
+      /* Facebook form styling */
+      .facebook {
+        color: #1877f2;
+        font-size: 60px;
+        text-align: center;
+      }
+      .signup-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 50px auto;
+      }   
+
+      .signup-container h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .signup-container p {
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .first {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      select {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+      }
+
+      .first input[type="text"] {
+        width: 48%;
+      }
+
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: #333;
+      }
+
+      select {
+        width: 32%;
+      }
+      .gender-container {
+        display: flex;
+        gap: 20px;
+      }
+      .gender-option {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 30%;
+        padding: 5px;
+      }
+
+      input [type="radio"] {
+        margin-left: 100px;
+      }
+
+      button[type="submit"] {
+        display: block;
+        margin: auto;
+        width:50%;
+        padding: 12px;
+        background-color: green;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      a {
+        color: #1877f2;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      form div {
+        margin-bottom: 10px;
+      }
+
+      .signup-container form div.gender {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+      }
+
+      
+
+      /* Log-in page design*/
+.log-in-page {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+.left-side p {
+  font-size: 18px;
+}
+
+
+form input[type="text"],
+form input[type="password"] {
+  width: 95%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline-color: #1877f2;
+}
+
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #1877F2;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #155db3;
+}
+.right-side {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.right-side p a {
+  color: #1877F2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.right-side p a:hover {
+  text-decoration:none;
+}
+
+.right-side button {
+  display: block;
+  margin: auto;
+  width:50%;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-side button:hover {
+  background-color: #36a420;
+}
+
+.right-side hr {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+.final {
+  margin: 20px;
+  display: flex;
+  margin-left: 57%;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .log-in-page {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-side,
+  .right-side {
+      width: 70%;
+      margin-bottom: 20px;
+  }
+}
+
+/** Animation **/
+.today {
+  width: 500px;
+  height: 500px;
+  color: blue;
+}
